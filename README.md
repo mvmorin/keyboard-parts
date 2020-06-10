@@ -2,11 +2,15 @@
 KiCad library of MX and Alps compatible footprints and other miscellaneous footprints and symbols.
 
 # Design
-The main focus is ease of creation, meaning, the switch footprints and symbol already have the diodes included. This eliminates almost half the components to place and draw traces to. Each switch footprint also comes the corresponding plate-cutout outline for MX and Alps switches, located on the *eco1* and *eco2* layer respectively. They can then easily be exported as a single *dxf* file or other vector graphics format and used in the creation of the plate. They cutouts are first and foremost aimed at pcb/FR4 plates and are/will be dimensioned to accomodate the looser tolerances of pcb-milling.
+The main focus is ease of PCB creation and design. Meaning, the switch footprints and symbol already have the diodes included. This eliminates almost half the components and traces. Each switch footprint also comes the corresponding plate-cutout outline for both MX and Alps switches, located on the *eco1* and *eco2* layer respectively. The PCB can then serve as the master for the plate with all the cutouts being exported as a single *dxf* (or other) file for the use in the plate design. They cutouts are mainly aimed at pcb/FR4 plates and are/will be dimensioned to accommodate the looser tolerances of PCB-milling.
 
-# ToDo
-* Alps cutouts are a little tight, about 60% of the milled cutouts are too small.
+# Known Issues
+* Alps cutouts are a little tight. About 60% of the cutouts in the test print where too small.
+* Cherry stabilizer cutout too small. They needed some filing to fit at all in the test print.
 
+# Untested Footprints
+Footprint features that not have been test printed/manufactured:
+* None
 
 # Licenses
 [![License: CC BY-SA 4.0](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/)
