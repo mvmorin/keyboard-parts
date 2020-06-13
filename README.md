@@ -8,7 +8,9 @@ The main focus is the ease of PCB and plate creation. The switch footprints and 
 * Combined switch-and-diode footprints.
 * *eco1*-layer: Outline for MX cutouts.
 * *eco2*-layer: Outline for Alps cutouts.
-* *cmt*-layer: Silk-screen for plate.
+* *cmts*-layer: Silk-screen for plate.
+
+The main benefit of these footprints is the extra information of the keyboard backplate they contain. To easily export these features to the backplate KiCad project, the *eco1*, *eco2*, and *cmts* layers of all other footprints used need to either be empty or contain the corresponding information.
 
 # Known Issues
 * Alps cutouts are a little tight. About 60% of the cutouts in the test print needed filing.
